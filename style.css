@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.coracao {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+    animation: coracao 1s linear 0s infinite alternate none;
+}
+
+.coracao::before, .coracao::after {
+    content: "";
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+    border-radius: 60px 60px 0 0;
+}
+
+.coracao::before {
+    top: 25px;
+    left: -74px;
+    transform: rotate(-90deg);
+}
+
+.coracao::after {
+    top: -49px;
+}
+
+
+@keyframes coracao {
+    from {
+        transform: scale(0.5) rotate(45deg);
+    }
+    to {
+        transform: scale(1) rotate(45deg);
+    }
+}
