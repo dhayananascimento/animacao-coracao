@@ -1,5 +1,5 @@
 # Animação - Coração 
-Projeto com a finalidade de treinar habilidades relativa a linguagem CSS. Ele consiste em uma animação de um coração, feito a partir de uma única "div".
+Projeto com a finalidade de treinar habilidades relativas a linguagem CSS. Ele consiste em uma animação de um coração, feito a partir de uma única "div".
 
 ## Layout
 <img src="./imagens/coracao.gif" alt= "gif coração">     
